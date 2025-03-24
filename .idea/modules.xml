@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Class Chaining/Class Chaining.iml" filepath="$PROJECT_DIR$/Class Chaining/Class Chaining.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Class Variable/Class Variable.iml" filepath="$PROJECT_DIR$/Class Variable/Class Variable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Class as parameter/Class as parameter.iml" filepath="$PROJECT_DIR$/Class as parameter/Class as parameter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/X-Workz.iml" filepath="$PROJECT_DIR$/X-Workz.iml" />
+    </modules>
+  </component>
+</project>
