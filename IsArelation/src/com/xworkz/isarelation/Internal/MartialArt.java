@@ -5,7 +5,7 @@ public class MartialArt {
         System.out.println("no arg cont of martial arts");
     }
     public void kungFu(){
-        System.out.println("Running Kung fu");
+        System.out.println("Running karete");
     }
     public void karate(){
         System.out.println("Running Kung fu");
