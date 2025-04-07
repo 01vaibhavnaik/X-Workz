@@ -21,5 +21,8 @@ public class Chain extends Gold{
         System.out.println("Running goldThickness updated");
 
     }
+    public void colorofchain(){
+        System.out.println("Running colorofchain");
+    }
 
 }

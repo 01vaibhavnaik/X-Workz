@@ -24,4 +24,7 @@ public class Currency extends Money{
     public void buyGoods(){
         System.out.println("Running buyGoods updated");
     }
+    public void stock(){
+        System.out.println("Running stock");
+    }
 }

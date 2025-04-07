@@ -24,4 +24,7 @@ public class Charcoal extends Coal{
     public void usage(){
         System.out.println("Running usage updated");
     }
+    public void pollution(){
+        System.out.println("Running pollution");
+    }
 }

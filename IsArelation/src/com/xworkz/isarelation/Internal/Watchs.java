@@ -24,4 +24,7 @@ public class Watchs extends Clock{
     public void powerSource(){
         System.out.println("Running powerSource updated");
     }
+    public void watchCmp(){
+        System.out.println("Running Watch cmp");
+    }
 }

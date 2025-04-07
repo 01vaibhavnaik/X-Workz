@@ -18,4 +18,7 @@ public class OnePlus extends Earbud{
         System.out.println("Running EarBudMfd updated");
 
     }
+    public void EarBudSound(){
+        System.out.println("Running Sound");
+    }
 }

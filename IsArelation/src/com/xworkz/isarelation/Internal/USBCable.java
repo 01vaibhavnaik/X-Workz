@@ -19,4 +19,9 @@ public class USBCable extends Port{
     public void type(){
         System.out.println("Running type updated");
     }
+
+    public void charge(){
+        System.out.println("Running Charge");
+    }
 }
+

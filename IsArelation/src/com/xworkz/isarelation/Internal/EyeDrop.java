@@ -24,4 +24,7 @@ public class EyeDrop extends Drop{
     public void dispense(){
         System.out.println("Running dispense updated");
     }
+    public void lens(){
+        System.out.println("Running lens");
+    }
 }

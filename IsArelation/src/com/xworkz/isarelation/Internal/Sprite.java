@@ -24,4 +24,7 @@ public class Sprite extends ColdDrink{
     public void sugarContent(){
         System.out.println("Running sugarContent updated");
     }
+    public void alcoholAmt(){
+        System.out.println("Running alcoholAmt");
+    }
 }

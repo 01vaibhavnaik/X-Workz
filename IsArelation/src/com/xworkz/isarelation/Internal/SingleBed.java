@@ -21,6 +21,8 @@ public class SingleBed extends Bed{
     @Override
     public void bedMfd(){
         System.out.println("Running Bed Mfd updated");
-
+    }
+    public void bedSize(){
+        System.out.println("Running bedSize");
     }
 }

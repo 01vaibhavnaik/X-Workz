@@ -24,4 +24,7 @@ public class Canon extends Camera{
     public void cameraType(){
         System.out.println("Running cameraType updated");
     }
+    public void cameraPrice(){
+        System.out.println("Running cameraPrice");
+    }
 }

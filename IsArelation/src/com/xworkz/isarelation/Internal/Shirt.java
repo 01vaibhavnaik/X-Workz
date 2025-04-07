@@ -20,4 +20,7 @@ public class Shirt extends Cloths{
     public void clothThickness(){
         System.out.println("Running clothThickness updated");
     }
+    public void clothMfd(){
+        System.out.println("Running clothMfd");
+    }
 }

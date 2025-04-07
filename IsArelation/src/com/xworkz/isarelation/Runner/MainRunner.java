@@ -1,5 +1,6 @@
 package com.xworkz.isarelation.Runner;
 
+import com.xworkz.isarelation.Casting.*;
 import com.xworkz.isarelation.Internal.*;
 
 public class MainRunner {
@@ -637,6 +638,10 @@ public class MainRunner {
         heart.eye();
         heart.leg();
 
+        InternalOrg internalOrg=new InternalOrg();
+        internalOrg.internals(body);
+        internalOrg.internals(heart);
+
         System.out.println("39==========");
         Human human4 = new Liver();
         human4.body();
@@ -839,6 +844,10 @@ public class MainRunner {
         canon.lens();
         canon.resolution();
 
+        Lens lens=new Lens();
+        lens.show(camera);
+        lens.show(canon);
+
         System.out.println("52==========");
         Bag bag = new Bag();
         bag.bagType();
@@ -857,6 +866,11 @@ public class MainRunner {
         skyBag.bagBrand();
         skyBag.bagPrice();
         skyBag.bagBrand();
+
+        BagType bagType=new BagType();
+        bagType.types(bag);
+        bagType.types(skyBag);
+
 
         System.out.println("53==========");
         Home home = new Home();
@@ -877,6 +891,10 @@ public class MainRunner {
         hall.HomeLocation();
         hall.HomeType();
 
+        Tv tv=new Tv();
+        tv.tv(home);
+        tv.tv(hall);
+
         System.out.println("54==========");
         Watch watch = new Watch();
         watch.time();
@@ -895,6 +913,10 @@ public class MainRunner {
         fastrack.year();
         fastrack.hour();
         fastrack.date();
+
+        WatchCmp watchCmp=new WatchCmp();
+        watchCmp.watches(watch);
+        watchCmp.watches(fastrack);
 
         System.out.println("55==========");
         Laptop laptop = new Laptop();
@@ -953,6 +975,10 @@ public class MainRunner {
         standard.studentPercentage();
         standard.studentStd();
 
+        Student student=new Student();
+        student.students(college);
+        student.students(standard);
+
         System.out.println("58==========");
         Cloths cloths = new Cloths();
         cloths.clothBrand();
@@ -971,6 +997,10 @@ public class MainRunner {
         shirt.clothPrice();
         shirt.clothQty();
         shirt.clothThickness();
+
+        Brand brand=new Brand();
+        brand.brands(cloths);
+        brand.brands(shirt);
 
         System.out.println("59==========");
         Color color = new Color();
@@ -991,6 +1021,10 @@ public class MainRunner {
         black.colorQty();
         black.colorThickness();
 
+        ColorName colorName=new ColorName();
+        colorName.colors(black);
+        colorName.colors(color);
+
         System.out.println("60==========");
         Temple temple = new Temple();
         temple.templeOpen();
@@ -1009,6 +1043,10 @@ public class MainRunner {
         shivTemple.templeTirth();
         shivTemple.templePrasad();
         shivTemple.templeClose();
+
+        Fest fest=new Fest();
+        fest.events(temple);
+        fest.events(shivTemple);
 
         System.out.println("61==========");
         Place place = new Place();
@@ -1029,6 +1067,10 @@ public class MainRunner {
         goa.placeLocation();
         goa.placeClose();
 
+        Alcohol alcohol=new Alcohol();
+        alcohol.alcohol(goa);
+        alcohol.alcohol(place);
+
         System.out.println("62==========");
         Country country = new Country();
         country.countryPopulation();
@@ -1047,6 +1089,10 @@ public class MainRunner {
         india.countryName();
         india.countryLocation();
         india.countryBan();
+
+        People people=new People();
+        people.nationality(country);
+        people.nationality(india);
 
         System.out.println("63==========");
         Product product = new Product();
@@ -1086,6 +1132,10 @@ public class MainRunner {
         singleBed.bedQty();
         singleBed.bedMfd();
 
+        BedType bedType=new BedType();
+        bedType.beds(bed);
+        bedType.beds(singleBed);
+
         System.out.println("65==========");
         Paper paper = new Paper();
         paper.paperPrice();
@@ -1118,6 +1168,9 @@ public class MainRunner {
         onePlus.EarBudType();
         onePlus.EarBudPrice();
         onePlus.EarBudMfd();
+        Sound sound=new Sound();
+        sound.sound(earbud);
+        sound.sound(onePlus);
 
         System.out.println("67==========");
         Box box = new Box();
@@ -1134,6 +1187,10 @@ public class MainRunner {
         squreBox.BoxType();
         squreBox.BoxPrice();
         squreBox.BoxMfd();
+
+        ContainerBox containerBox=new ContainerBox();
+        containerBox.circle(box);
+        containerBox.circle(squreBox);
 
 
         System.out.println("68==========");
@@ -1191,6 +1248,10 @@ public class MainRunner {
         chain.goldPrice();
         chain.goldThickness();
 
+        LengthOfChain lengthOfChain=new LengthOfChain();
+        lengthOfChain.length(gold);
+        lengthOfChain.length(chain);
+
         System.out.println("71==========");
         Platinum platinum = new Platinum();
         platinum.platinumType();
@@ -1229,6 +1290,10 @@ public class MainRunner {
         hammer.store();
         hammer.clean();
         hammer.repair();
+
+        HammerSize hammerSize=new HammerSize();
+        hammerSize.sizes(tool);
+        hammerSize.sizes(hammer);
 
         System.out.println("73=====================================================");
         Software software = new Software();
@@ -1287,6 +1352,10 @@ public class MainRunner {
         creditCard.tap();
         creditCard.validate();
         creditCard.expire();
+
+        CardType cardType=new CardType();
+        cardType.cards(card);
+        cardType.cards(creditCard);
         System.out.println("76========================================");
         Airplane airplane = new Airplane();
         airplane.takeOff();
@@ -1306,6 +1375,10 @@ public class MainRunner {
         jet.land();
         jet.fuelCapacity();
         jet.passengers();
+
+        Space space=new Space();
+        space.spaceOccupy(airplane);
+        space.spaceOccupy(jet);
         System.out.println("77========================================");
         Room room = new Room();
         room.openDoor();
@@ -1313,17 +1386,24 @@ public class MainRunner {
         room.clean();
         room.ventilate();
         room.occupy();
+
         Room room1 = new Bathroom();
         room1.openDoor();
         room1.closeDoor();
         room1.clean();
         room1.ventilate();
+
         Bathroom bathroom = new Bathroom();
         bathroom.openDoor();
         bathroom.closeDoor();
         bathroom.clean();
         bathroom.ventilate();
         bathroom.occupy();
+
+        RoomNo roomNo=new RoomNo();
+        roomNo.luxurious(room);
+        roomNo.luxurious(bathroom);
+
         System.out.println("78=================================");
         Countrys countrys = new Countrys();
         countrys.continent();
@@ -1343,6 +1423,10 @@ public class MainRunner {
         japan.government();
         japan.currency();
         japan.language();
+
+        CarShow carShow=new CarShow();
+        carShow.cars(countrys);
+        carShow.cars(japan);
         System.out.println("79=================================");
         Minister minister = new Minister();
         minister.makePolicies();
@@ -1362,6 +1446,10 @@ public class MainRunner {
         cm.attendMeetings();
         cm.representGovernment();
         cm.manageDepartment();
+
+        Danger danger=new Danger();
+        danger.danger(minister);
+        danger.danger(cm);
         System.out.println("80===================================");
         Drop drop = new Drop();
         drop.liquidType();
@@ -1381,6 +1469,10 @@ public class MainRunner {
         eyeDrop.uses();
         eyeDrop.absorption();
         eyeDrop.dispense();
+        Vision vision=new Vision();
+        vision.vision(eyeDrop);
+        vision.vision(drop);
+
         System.out.println("81=============================");
         Port port = new Port();
         port.connect();
@@ -1399,6 +1491,10 @@ public class MainRunner {
         usbCable.supplyPower();
         usbCable.type();
 
+        Battery battery=new Battery();
+        battery.percentage(port);
+        battery.percentage(usbCable);
+
         System.out.println("82===========================");
         Display display = new Display();
         display.showImage();
@@ -1406,18 +1502,25 @@ public class MainRunner {
         display.refreshRate();
         display.brightness();
         display.displayType();
+
         Display display1 = new Monitor();
         display1.showImage();
         display1.resolution();
         display1.refreshRate();
         display1.brightness();
         display1.displayType();
+
         Monitor monitor = new Monitor();
         monitor.showImage();
         monitor.resolution();
         monitor.refreshRate();
         monitor.brightness();
         monitor.displayType();
+
+        Cpu cpu=new Cpu();
+        cpu.systems(display);
+        cpu.systems(monitor);
+
         System.out.println("83=======================");
         Cycle cycle = new Cycle();
         cycle.pedal();
@@ -1437,6 +1540,10 @@ public class MainRunner {
         motorcycle.wheels();
         motorcycle.ringBell();
         motorcycle.stand();
+
+        Service service=new Service();
+        service.check(cycle);
+        service.check(motorcycle);
         System.out.println("84==========================");
         Oil oil = new Oil();
         oil.extract();
@@ -1475,6 +1582,9 @@ public class MainRunner {
         woodenDoor.lock();
         woodenDoor.unlock();
         woodenDoor.material();
+        Safety safety=new Safety();
+        safety.secure(woodenDoor);
+        safety.secure(doors);
         System.out.println("86==================================");
         Light light = new Light();
         light.turnOn();
@@ -1494,6 +1604,11 @@ public class MainRunner {
         tubeLight.brightness();
         tubeLight.color();
         tubeLight.powerSource();
+
+        Bill bill=new Bill();
+        bill.payment(light);
+        bill.payment(tubeLight);
+
         System.out.println("87===================================================");
         Wire wire = new Wire();
         wire.conductElectricity();
@@ -1513,6 +1628,10 @@ public class MainRunner {
         copperWire.flexibility();
         copperWire.length();
         copperWire.usage();
+
+        ColorOfWire colorOfWire=new ColorOfWire();
+        colorOfWire.colorofwire(wire);
+        colorOfWire.colorofwire(copperWire);
         System.out.println("88==================================");
         Person person = new Person();
         person.eat();
@@ -1570,6 +1689,9 @@ public class MainRunner {
         sprite.flavor();
         sprite.fizz();
         sprite.sugarContent();
+        Bottle bottle=new Bottle();
+        bottle.bottleType(sprite);
+        bottle.bottleType(coldDrink);
         System.out.println("91=================================================");
         Organ organ = new Organ();
         organ.function();
@@ -1583,12 +1705,17 @@ public class MainRunner {
         organ1.regulation();
         organ1.growth();
         organ1.repair();
+
         Hearts hearts = new Hearts();
         hearts.function();
         hearts.bloodSupply();
         hearts.regulation();
         hearts.growth();
         hearts.repair();
+
+        Disease disease=new Disease();
+        disease.disease(organ);
+        disease.disease(hearts);
         System.out.println("92====================================================");
         Tournament tournament = new Tournament();
         tournament.organize();
@@ -1606,6 +1733,10 @@ public class MainRunner {
         ipl.teamsParticipate();
         ipl.scheduleMatches();
         ipl.declareWinner();
+
+        Betting betting=new Betting();
+        betting.bet(tournament);
+        betting.bet(ipl);
 
         System.out.println("93=========================================================");
         SportsEquipment equipment = new SportsEquipment();
@@ -1626,6 +1757,10 @@ public class MainRunner {
         bat.brand();
         bat.maintenance();
         bat.cost();
+
+        Durable durable=new Durable();
+        durable.qty(equipment);
+        durable.qty(bat);
         System.out.println("94====================================================================");
         Money money = new Money();
         money.exchange();
@@ -1645,6 +1780,12 @@ public class MainRunner {
         currency.store();
         currency.transfer();
         currency.buyGoods();
+
+        StockMarket stockMarket=new StockMarket();
+        stockMarket.bull(money);
+        stockMarket.bull(currency);
+
+
         System.out.println("95==========================================================");
         Boxs boxs = new Boxs();
         boxs.storeItems();
@@ -1664,6 +1805,10 @@ public class MainRunner {
         matchBox.close();
         matchBox.material();
         matchBox.size();
+
+        PriceOfBox priceOfBox=new PriceOfBox();
+        priceOfBox.priceof(boxs);
+        priceOfBox.priceof(matchBox);
         System.out.println("96============================================================");
         Coal coal = new Coal();
         coal.burn();
@@ -1683,6 +1828,10 @@ public class MainRunner {
         charcoal.carbonContent();
         charcoal.extraction();
         charcoal.usage();
+
+        CoalPollution coalPollution=new CoalPollution();
+        coalPollution.displays(coal);
+        coalPollution.displays(charcoal);
         System.out.println("97=============================================================");
         Browser browser = new Browser();
         browser.open();
@@ -1702,6 +1851,11 @@ public class MainRunner {
         chrome.navigate();
         chrome.incognitoMode();
         chrome.extensions();
+
+        NetSpeed netSpeed= new NetSpeed();
+        netSpeed.frequency(browser);
+        netSpeed.frequency(chrome);
+
         System.out.println("98===============================================");
         Clock clock = new Clock();
         clock.showTime();
@@ -1721,6 +1875,11 @@ public class MainRunner {
         watchs.tick();
         watchs.displayFormat();
         watchs.powerSource();
+
+        Time time=new Time();
+        time.time(clock);
+        time.time(watchs);
+
         System.out.println("99=================================================");
         Element element = new Element();
         element.existInNature();
@@ -1740,6 +1899,10 @@ public class MainRunner {
         fire.hasAtomicStructure();
         fire.classifiedByType();
         fire.periodicTablePresence();
+
+        Harmfull harmfull=new Harmfull();
+        harmfull.warning(element);
+        harmfull.warning(fire);
         System.out.println("100============================================================");
         Skills skills = new Skills();
         skills.learn();

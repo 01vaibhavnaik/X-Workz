@@ -20,4 +20,7 @@ public class Fastrack extends Watch{
     public  void hour(){
         System.out.println("Running hour updated");
     }
+    public void price(){
+        System.out.println("Running price");
+    }
 }

@@ -24,4 +24,7 @@ public class Motorcycle extends Cycle{
     public void stand(){
         System.out.println("Running stand updated");
     }
+    public void service(){
+        System.out.println("Running service");
+    }
 }

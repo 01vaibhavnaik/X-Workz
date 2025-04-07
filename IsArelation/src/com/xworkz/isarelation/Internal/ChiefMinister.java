@@ -24,4 +24,7 @@ public class ChiefMinister extends Minister {
     public void manageDepartment(){
         System.out.println("Running manageDepartment updated");
     }
+    public void power(){
+        System.out.println("Running power");
+    }
 }

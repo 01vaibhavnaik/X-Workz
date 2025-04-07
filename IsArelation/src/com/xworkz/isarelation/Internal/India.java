@@ -20,4 +20,7 @@ public class India extends Country{
     public void countryBan(){
         System.out.println("Running countryBan updated");
     }
+    public void nationAnimal(){
+        System.out.println("Running nationAnimal");
+    }
 }

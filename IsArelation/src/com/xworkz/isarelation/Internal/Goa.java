@@ -20,4 +20,7 @@ public class Goa extends Place{
     public void placeClose(){
         System.out.println("Running Close updated");
     }
+    public void beverage(){
+        System.out.println("Running beverages");
+    }
 }

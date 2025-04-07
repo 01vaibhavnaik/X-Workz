@@ -20,4 +20,7 @@ public class IPL extends Tournament{
     public void declareWinner(){
         System.out.println("Running declareWinner updated");
     }
+    public void dream11(){
+        System.out.println("Running dream11");
+    }
 }

@@ -24,4 +24,7 @@ public class Fire extends Element{
     public void periodicTablePresence(){
         System.out.println("Running periodicTablePresence updated");
     }
+    public void harmfull(){
+        System.out.println("Running harm");
+    }
 }

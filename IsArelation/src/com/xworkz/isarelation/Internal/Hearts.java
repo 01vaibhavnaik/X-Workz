@@ -24,4 +24,7 @@ public class Hearts extends Organ{
     public void repair(){
         System.out.println("Running repair updated");
     }
+    public void nerves(){
+        System.out.println("Running nerves");
+    }
 }

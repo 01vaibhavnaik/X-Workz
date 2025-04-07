@@ -24,4 +24,7 @@ public class WoodenDoor extends Doors{
     public void material(){
         System.out.println("Running material updated");
     }
+    public void safety(){
+        System.out.println("Running Safety");
+    }
 }

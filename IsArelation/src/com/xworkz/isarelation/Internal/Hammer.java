@@ -24,4 +24,7 @@ public class Hammer extends Tool{
     public void repair(){
         System.out.println("running repair updated");
     }
+    public void size(){
+        System.out.println("Running size");
+    }
 }

@@ -23,4 +23,7 @@ public class TubeLight extends Light{
     public void powerSource(){
         System.out.println("Running powerSource updated");
     }
+    public void bill(){
+        System.out.println("Running bill");
+    }
 }

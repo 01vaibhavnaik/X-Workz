@@ -20,4 +20,7 @@ public class Hall extends Home{
     public void HomeQty(){
         System.out.println("Running HomeQty updated");
     }
+    public void homeArea(){
+        System.out.println("Running homeArea");
+    }
 }

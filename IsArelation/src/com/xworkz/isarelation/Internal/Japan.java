@@ -24,4 +24,7 @@ public class Japan extends Countrys{
     public void language(){
         System.out.println("Running language updated");
     }
+    public void car(){
+        System.out.println("Running car modificatin");
+    }
 }

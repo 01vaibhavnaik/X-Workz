@@ -24,4 +24,7 @@ public class MatchBox extends Boxs{
     public void size(){
         System.out.println("Running size updated");
     }
+    public  void price(){
+        System.out.println("Running price");
+    }
 }

@@ -24,4 +24,7 @@ public class Monitor extends Display{
     public void displayType(){
         System.out.println("Running displayType updated");
     }
+    public void monitorPrice(){
+        System.out.println("Running monitorPrice");
+    }
 }

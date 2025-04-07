@@ -24,4 +24,7 @@ public class Jet extends Airplane{
     public void passengers(){
         System.out.println("Running passengers updated");
     }
+    public void space(){
+        System.out.println("Running space");
+    }
 }

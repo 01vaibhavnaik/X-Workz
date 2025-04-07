@@ -24,4 +24,7 @@ public class Chrome extends Browser{
     public void extensions(){
         System.out.println("Running extensions updated");
     }
+    public void netSpeed(){
+        System.out.println("Running Net speed");
+    }
 }

@@ -21,4 +21,7 @@ public class Black extends Color{
     public void colorThickness(){
         System.out.println("Running colorThickness updated");
     }
+    public void colormfd(){
+        System.out.println("Runnig mfd");
+    }
 }

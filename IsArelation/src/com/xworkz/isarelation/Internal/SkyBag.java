@@ -20,5 +20,7 @@ public class SkyBag extends Bag{
     public void bagQty(){
         System.out.println("Running bagQty updated");
     }
-
+    public void bagStyle(){
+        System.out.println("Running bagStyle");
+    }
 }

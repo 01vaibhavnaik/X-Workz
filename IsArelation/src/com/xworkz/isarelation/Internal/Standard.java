@@ -20,4 +20,7 @@ public class Standard extends College{
     public void studentPercentage(){
         System.out.println("Running Percentage updated");
     }
+    public  void studentAdd(){
+        System.out.println("Running std address");
+    }
 }

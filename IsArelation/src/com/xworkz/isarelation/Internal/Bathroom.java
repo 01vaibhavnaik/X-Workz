@@ -24,4 +24,7 @@ public class Bathroom extends Room{
     public void occupy(){
         System.out.println("Running occupy updated");
     }
+    public void ac(){
+        System.out.println("Running Ac");
+    }
 }

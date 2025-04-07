@@ -20,4 +20,7 @@ public class ShivTemple extends Temple{
     public void templeClose(){
         System.out.println("Running Close updated");
     }
+    public void templeFest(){
+        System.out.println("Running temple fest");
+    }
 }

@@ -24,4 +24,7 @@ public class CreditCard extends Card{
     public void expire(){
         System.out.println(" Running expire updated");
     }
+    public void debit(){
+        System.out.println("Running debit card");
+    }
 }

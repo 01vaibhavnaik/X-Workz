@@ -24,4 +24,7 @@ public class CopperWire extends Wire{
     public void usage(){
         System.out.println("Running usage updated");
     }
+    public void wireColors(){
+        System.out.println("Running  wire color");
+    }
 }

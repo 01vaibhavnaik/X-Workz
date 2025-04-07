@@ -18,4 +18,7 @@ public class SqureBox extends Box{
         System.out.println("Running BoxMfd updated");
 
     }
+    public void CircleBox(){
+        System.out.println("Running CircleBox updated");
+    }
 }

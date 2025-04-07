@@ -24,4 +24,7 @@ public class Bat extends SportsEquipment{
     public void cost(){
         System.out.println("Running cost updated");
     }
+    public void durable(){
+        System.out.println("Running durable");
+    }
 }

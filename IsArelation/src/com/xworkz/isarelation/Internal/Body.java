@@ -24,4 +24,7 @@ public class Body extends Human{
     public void eye(){
         System.out.println("Running eye updated");
     }
+    public void heart(){
+        System.out.println("Running heart");
+    }
 }

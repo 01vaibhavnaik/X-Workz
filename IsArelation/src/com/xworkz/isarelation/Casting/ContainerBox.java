@@ -1,4 +1,7 @@
-package com.xworkz.isarelation.Internal;
+package com.xworkz.isarelation.Casting;
+
+import com.xworkz.isarelation.Internal.Box;
+import com.xworkz.isarelation.Internal.SqureBox;
 
 public class ContainerBox {
     public void circle(Box box){
