@@ -11,7 +11,7 @@ public class NetSpeed {
         browser.close();
 
         if(browser instanceof Chrome){
-            Chrome chrome=new Chrome();
+            Chrome chrome=(Chrome) browser;
             chrome.netSpeed();
         }
     }

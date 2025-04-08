@@ -11,7 +11,7 @@ public class Harmfull {
         element.hasAtomicStructure();
 
         if (element instanceof Fire){
-            Fire fire=new Fire();
+            Fire fire=(Fire) element;
             fire.harmfull();
         }
 

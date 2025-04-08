@@ -10,7 +10,7 @@ public class Bottle {
         coldDrink.fizz();
 
         if (coldDrink instanceof Sprite){
-            Sprite sprite=new Sprite();
+            Sprite sprite=(Sprite) coldDrink;
             sprite.alcoholAmt();
         }
     }

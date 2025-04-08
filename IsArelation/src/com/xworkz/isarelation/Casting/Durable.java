@@ -11,7 +11,7 @@ public class Durable {
         sportsEquipment.maintenance();
 
         if (sportsEquipment instanceof Bat){
-            Bat bat=new Bat();
+            Bat bat=(Bat) sportsEquipment;
             bat.durable();
         }
     }

@@ -11,7 +11,7 @@ public class ColorOfWire {
         wire.length();
 
         if (wire instanceof CopperWire);
-        CopperWire copperWire=new CopperWire();
+        CopperWire copperWire=(CopperWire) wire;
         copperWire.wireColors();
     }
 }

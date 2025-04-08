@@ -11,7 +11,7 @@ public class Alcohol {
         place.placeLocation();
 
         if (place instanceof Goa){
-            Goa goa=new Goa();
+            Goa goa=(Goa)place;
             goa.beverage();
         }
 

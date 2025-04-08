@@ -11,7 +11,7 @@ public class Vision {
         drop.dispense();
         drop.uses();
         if (drop instanceof EyeDrop){
-        EyeDrop eyeDrop=new EyeDrop();
+        EyeDrop eyeDrop=(EyeDrop) drop;
         eyeDrop.lens();
         }
     }

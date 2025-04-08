@@ -12,7 +12,7 @@ public class StockMarket {
         money.transfer();
 
         if(money instanceof Currency){
-            Currency currency=new Currency();
+            Currency currency=(Currency) money;
             currency.stock();
         }
     }

@@ -10,7 +10,7 @@ public class Time {
         clock.powerSource();
 
         if (clock instanceof Watchs){
-            Watchs watchs=new Watchs();
+            Watchs watchs=(Watchs) clock;
             watchs.watchCmp();
         }
     }

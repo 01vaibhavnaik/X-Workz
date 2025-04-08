@@ -12,7 +12,7 @@ public class CarShow {
         countrys.language();
 
         if(countrys instanceof Japan){
-            Japan japan=new Japan();
+            Japan japan=(Japan) countrys;
             japan.car();
         }
     }

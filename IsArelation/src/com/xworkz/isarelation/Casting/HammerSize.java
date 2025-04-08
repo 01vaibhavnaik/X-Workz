@@ -11,7 +11,7 @@ public class HammerSize {
         tool.use();
 
         if(tool instanceof Hammer){
-            Hammer hammer=new Hammer();
+            Hammer hammer=(Hammer) tool;
             hammer.size();
         }
 

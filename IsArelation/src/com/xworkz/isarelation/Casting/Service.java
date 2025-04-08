@@ -11,7 +11,7 @@ public class Service {
         cycle.wheels();
 
         if (cycle instanceof Motorcycle){
-            Motorcycle motorcycle=new Motorcycle();
+            Motorcycle motorcycle=(Motorcycle) cycle;
             motorcycle.service();
         }
     }

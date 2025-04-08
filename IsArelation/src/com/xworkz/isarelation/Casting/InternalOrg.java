@@ -10,7 +10,7 @@ public class InternalOrg {
             human.leg();
             human.hand();
             if(human instanceof Body);
-            Body body=new Body();
+            Body body=(Body) human;
             body.heart();
 
 

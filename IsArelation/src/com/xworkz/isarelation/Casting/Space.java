@@ -12,7 +12,7 @@ public class Space {
         airplane.takeOff();
 
         if (airplane instanceof Jet){
-            Jet jet=new Jet();
+            Jet jet=(Jet) airplane;
             jet.space();
         }
 

@@ -11,7 +11,7 @@ public class BedType {
         bed.bedType();
 
         if (bed instanceof SingleBed){
-            SingleBed singleBed=new SingleBed();
+            SingleBed singleBed=(SingleBed) bed;
             singleBed.bedSize();
         }
 

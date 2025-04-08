@@ -12,7 +12,7 @@ public class RoomNo {
         room.closeDoor();
 
         if (room instanceof Bathroom){
-            Bathroom bathroom=new Bathroom();
+            Bathroom bathroom=(Bathroom) room;
             bathroom.ac();
         }
     }

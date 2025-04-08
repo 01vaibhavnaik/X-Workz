@@ -10,7 +10,7 @@ public class WatchCmp {
         watch.year();
 
         if (watch instanceof Fastrack){
-            Fastrack fastrack=new Fastrack();
+            Fastrack fastrack=(Fastrack) watch;
                 fastrack.price();
 
         }

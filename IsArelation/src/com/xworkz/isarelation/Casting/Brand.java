@@ -11,7 +11,7 @@ public class Brand {
         cloths.clothQty();
 
         if (cloths instanceof Shirt){
-            Shirt shirt=new Shirt();
+            Shirt shirt=(Shirt) cloths;
             shirt.clothMfd();
         }
     }

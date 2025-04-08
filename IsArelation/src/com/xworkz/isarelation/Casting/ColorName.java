@@ -10,7 +10,7 @@ public class ColorName {
         color.colorQty();
         color.colorThickness();
         if(color instanceof Black){
-            Black black=new Black();
+            Black black=(Black) color;
             black.colormfd();
         }
     }

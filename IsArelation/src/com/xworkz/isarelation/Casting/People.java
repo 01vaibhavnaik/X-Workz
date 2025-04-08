@@ -11,7 +11,7 @@ public class People {
         country.countryBan();
 
         if (country instanceof India){
-            India india=new India();
+            India india=(India) country;
             india.nationAnimal();
         }
     }

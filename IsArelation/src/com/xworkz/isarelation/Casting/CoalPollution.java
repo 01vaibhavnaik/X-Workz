@@ -10,7 +10,7 @@ public class CoalPollution {
         coal.extraction();
 
         if(coal instanceof Charcoal){
-            Charcoal charcoal=new Charcoal();
+            Charcoal charcoal=(Charcoal) coal;
             charcoal.pollution();
         }
     }

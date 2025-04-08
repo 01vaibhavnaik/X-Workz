@@ -10,7 +10,7 @@ public class Safety {
         doors.close();
         doors.unlock();
         if (doors instanceof WoodenDoor){
-            WoodenDoor woodenDoor=new WoodenDoor();
+            WoodenDoor woodenDoor=(WoodenDoor) doors;
             woodenDoor.safety();
         }
     }

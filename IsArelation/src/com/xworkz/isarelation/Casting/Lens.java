@@ -12,7 +12,7 @@ public class Lens {
         camera.resolution();
 
         if (camera instanceof Canon){
-            Canon canon=new Canon();
+            Canon canon=(Canon) camera;
             ((Canon) camera).cameraPrice();
         }
     }

@@ -11,7 +11,7 @@ public class Fest {
         temple.templeTirth();
 
         if(temple instanceof ShivTemple);
-        ShivTemple shivTemple=new ShivTemple();
+        ShivTemple shivTemple=(ShivTemple) temple;
         shivTemple.templeFest();
     }
 }

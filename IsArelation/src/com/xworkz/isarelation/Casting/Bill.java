@@ -11,7 +11,7 @@ public class Bill {
         light.turnOff();
 
         if(light instanceof TubeLight){
-            TubeLight tubeLight=new TubeLight();
+            TubeLight tubeLight=(TubeLight)light ;
             tubeLight.bill();
         }
     }

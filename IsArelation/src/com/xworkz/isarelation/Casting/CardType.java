@@ -11,7 +11,7 @@ public class CardType {
         card.validate();
 
         if(card instanceof CreditCard){
-            CreditCard creditCard=new CreditCard();
+            CreditCard creditCard=(CreditCard) card;
             creditCard.debit();
         }
     }

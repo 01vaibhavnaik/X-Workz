@@ -10,7 +10,7 @@ public class Betting {
     tournament.teamsParticipate();
 
     if (tournament instanceof IPL){
-        IPL ipl=new IPL();
+        IPL ipl=(IPL) tournament;
         ipl.dream11();
     }
     }

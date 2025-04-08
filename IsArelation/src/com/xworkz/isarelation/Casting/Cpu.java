@@ -9,7 +9,7 @@ public class Cpu {
         display.displayType();
         display.displayType();
         if(display instanceof Monitor){
-            Monitor monitor=new Monitor();
+            Monitor monitor=(Monitor) display;
             monitor.monitorPrice();
         }
     }

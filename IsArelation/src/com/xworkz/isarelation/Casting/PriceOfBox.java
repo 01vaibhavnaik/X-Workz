@@ -9,7 +9,7 @@ public class PriceOfBox {
         boxs.close();
         boxs.open();
         if(boxs instanceof MatchBox){
-            MatchBox matchBox=new MatchBox();
+            MatchBox matchBox=(MatchBox) boxs;
             matchBox.price();
         }
     }

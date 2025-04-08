@@ -11,7 +11,7 @@ public class BagType {
         bag.bagQty();
 
         if (bag instanceof SkyBag){
-            SkyBag skyBag=new SkyBag();
+            SkyBag skyBag=(SkyBag)bag ;
             skyBag.bagStyle();
         }
     }

@@ -9,7 +9,7 @@ public class ContainerBox {
         box.BoxMfd();
 
         if(box instanceof SqureBox);
-        SqureBox squreBox=new SqureBox();
+        SqureBox squreBox=(SqureBox) box;
         squreBox.CircleBox();
     }
 }

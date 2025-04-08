@@ -12,7 +12,7 @@ public class Danger {
         minister.manageDepartment();
 
         if(minister instanceof ChiefMinister){
-            ChiefMinister chiefMinister=new ChiefMinister();
+            ChiefMinister chiefMinister=(ChiefMinister) minister;
             chiefMinister.power();
         }
     }

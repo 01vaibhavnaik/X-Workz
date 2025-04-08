@@ -10,7 +10,7 @@ public class Student {
         college.studentPercentage();
 
         if (college instanceof Standard){
-            Standard standard=new Standard();
+            Standard standard=(Standard) college;
             standard.studentAdd();
 
         }

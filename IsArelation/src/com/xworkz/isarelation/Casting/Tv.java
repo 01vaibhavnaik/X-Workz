@@ -11,7 +11,7 @@ public class Tv {
         home.HomeQty();
 
         if(home instanceof Hall){
-            Hall hall=new Hall();
+            Hall hall=(Hall) home;
             hall.homeArea();
         }
     }

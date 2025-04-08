@@ -10,7 +10,7 @@ public class Battery {
         port.transferData();
 
         if (port instanceof USBCable){
-           USBCable usbCable=new USBCable();
+           USBCable usbCable=(USBCable) port;
            usbCable.charge();
         }
     }

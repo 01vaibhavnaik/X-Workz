@@ -10,7 +10,7 @@ public class Sound {
         earbud.EarBudType();
 
         if (earbud instanceof OnePlus){
-            OnePlus onePlus=new OnePlus();
+            OnePlus onePlus=(OnePlus) earbud;
             onePlus.EarBudSound();
         }
     }

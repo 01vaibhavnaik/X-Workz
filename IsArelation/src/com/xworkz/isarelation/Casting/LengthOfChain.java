@@ -11,7 +11,7 @@ public class LengthOfChain {
         gold.goldType();
 
         if (gold instanceof Chain){
-            Chain chain=new Chain();
+            Chain chain=(Chain) gold;
             chain.colorofchain();
         }
     }

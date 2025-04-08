@@ -11,7 +11,7 @@ public class Disease {
         organ.bloodSupply();
 
         if(organ instanceof Hearts){
-            Hearts hearts=new Hearts();
+            Hearts hearts=(Hearts) organ;
             hearts.nerves();
         }
     }
