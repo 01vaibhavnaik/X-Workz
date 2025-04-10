@@ -16,4 +16,8 @@ public class Printer {
     public String toString() {
         return "Brand: " + this.brand + "\nType: " + this.type + "\nResolution: " + this.resolution;
     }
+    @Override
+    public int hashCode(){
+        return -987654;
+    }
 }

@@ -16,5 +16,9 @@ package com.xwrokz.tostring.external;
         public String toString() {
             return "Brand: " + this.brand + "\nGear Count: " + this.gearCount + "\nType: " + this.type;
         }
+        @Override
+        public int hashCode(){
+            return 652;
+        }
 
 }

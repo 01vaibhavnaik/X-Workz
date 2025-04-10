@@ -16,4 +16,8 @@ public class Duck {
     public String toString() {
         return "Color: " + this.color + "\nHabitat: " + this.habitat + "\nCan Swim: " + this.canSwim;
     }
+    @Override
+    public int hashCode(){
+        return 639;
+    }
 }

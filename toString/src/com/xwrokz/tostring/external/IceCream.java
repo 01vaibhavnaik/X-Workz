@@ -15,4 +15,8 @@ public class IceCream {
     public String toString(){
         return "IceCream Flavour:"+this.iceCreamFlavour+" \nIceCream Price:"+this.iceCreamPrice+"Rs"+"\nIceCream Shop Location:"+this.iceCreamLocation;
     }
+    @Override
+    public int hashCode(){
+        return 8927;
+    }
 }

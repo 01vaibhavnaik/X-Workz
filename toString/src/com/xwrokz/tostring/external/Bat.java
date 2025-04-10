@@ -16,4 +16,8 @@ public class Bat {
     public String toString() {
         return "Habitat: " + this.habitat + "\nWingspan: " + this.wingspan + " cm\nNocturnal: " + this.isNocturnal;
     }
+    @Override
+    public int hashCode(){
+        return -3768;
+    }
 }

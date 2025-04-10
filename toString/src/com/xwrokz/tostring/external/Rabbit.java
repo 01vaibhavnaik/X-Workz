@@ -16,4 +16,8 @@ public class Rabbit {
     public String toString() {
         return "Breed: " + this.breed + "\nIs Domestic: " + this.isDomestic + "\nHas Long Ears: " + this.hasLongEars;
     }
+    @Override
+    public int hashCode(){
+        return 2345678;
+    }
 }

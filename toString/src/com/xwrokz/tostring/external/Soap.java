@@ -16,4 +16,8 @@ public class Soap {
     public String toString() {
         return "Brand: " + this.brand + "\nWeight: " + this.weight + "\nScent: " + this.scent;
     }
+    @Override
+    public int hashCode(){
+        return 745678;
+    }
 }

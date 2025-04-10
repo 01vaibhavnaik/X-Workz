@@ -16,4 +16,8 @@ public class Mug {
     public String toString() {
         return "Material: " + this.material + "\nColor: " + this.color + "\nCapacity: " + this.capacity;
     }
+    @Override
+    public int hashCode(){
+        return 5872;
+    }
 }

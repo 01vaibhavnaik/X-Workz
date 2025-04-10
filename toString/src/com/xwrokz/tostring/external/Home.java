@@ -16,4 +16,8 @@ public class Home {
     public String toString(){
         return "Type:"+this.homeType+" \nRent:"+this.homeRent+"\nAddress:"+this.homeLocatin;
     }
+    @Override
+    public int hashCode(){
+        return 92689;
+    }
 }

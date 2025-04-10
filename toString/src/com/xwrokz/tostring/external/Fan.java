@@ -15,4 +15,8 @@ public class Fan {
     public String toString(){
         return "Fan Brand:"+this.fanBrand+" \nFan Price:"+this.fanPrice+"\nFan Color:"+this.fanColor;
     }
+    @Override
+    public int hashCode(){
+        return 98763;
+    }
 }

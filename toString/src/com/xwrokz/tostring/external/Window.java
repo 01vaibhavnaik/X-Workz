@@ -15,4 +15,8 @@ public class Window {
     public String toString(){
         return "Window Brand:"+this.windowType+" \nWindow Price:"+this.windowPrice+"\nWindow Color:"+this.windowColor;
     }
+    @Override
+    public int hashCode(){
+        return 254678;
+    }
 }

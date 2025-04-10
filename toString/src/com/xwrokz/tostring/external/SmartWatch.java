@@ -16,4 +16,8 @@ public class SmartWatch {
     public String toString() {
         return "Brand: " + this.brand + "\nHas GPS: " + this.hasGPS + "\nIs Waterproof: " + this.isWaterproof;
     }
+    @Override
+    public int hashCode(){
+        return -545678;
+    }
 }

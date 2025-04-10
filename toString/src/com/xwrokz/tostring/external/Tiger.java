@@ -16,4 +16,8 @@ public class Tiger {
     public String toString() {
         return "Habitat: " + this.habitat + "\nWeight: " + this.weight + " kg\nStripe Pattern: " + this.stripePattern;
     }
+    @Override
+    public int hashCode(){
+        return 434567;
+    }
 }

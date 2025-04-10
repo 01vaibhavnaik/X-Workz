@@ -16,4 +16,8 @@ public class Fruit {
     public String toString(){
         return "Name Of Fruit:"+this.fruitName+" \nFruit KG:"+this.fruitKg+"\nFruit Price :"+this.fruitPrice;
     }
+    @Override
+    public int hashCode(){
+        return 76378;
+    }
 }

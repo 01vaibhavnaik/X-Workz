@@ -16,4 +16,8 @@ public class Parakeet {
     public String toString() {
         return "Color: " + this.color + "\nHabitat: " + this.habitat + "\nCan Mimic Speech: " + this.canMimicSpeech;
     }
+    @Override
+    public int hashCode(){
+        return 5628;
+    }
 }

@@ -16,4 +16,8 @@ public class Swan {
     public String toString() {
         return "Color: " + this.color + "\nHabitat: " + this.habitat + "\nWingspan: " + this.wingspan + " meters";
     }
+    @Override
+    public int hashCode(){
+        return 6568;
+    }
 }

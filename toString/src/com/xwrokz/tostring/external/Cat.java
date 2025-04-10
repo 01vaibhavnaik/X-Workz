@@ -16,4 +16,8 @@ public class Cat {
     public String toString() {
         return "Breed: " + this.breed + "\nAge: " + this.age + "\nColor: " + this.color;
     }
+    @Override
+    public int hashCode(){
+        return -35627;
+    }
 }

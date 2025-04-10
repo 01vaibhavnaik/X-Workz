@@ -16,5 +16,9 @@ public class Koala {
     public String toString() {
         return "Habitat: " + this.habitat + "\nDiet: " + this.diet + "\nEndangered: " + this.isEndangered;
     }
+    @Override
+    public int hashCode(){
+        return 1228;
+    }
 }
 

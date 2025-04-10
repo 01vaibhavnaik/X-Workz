@@ -16,4 +16,8 @@ public class Cow {
     public String toString() {
         return "Breed: " + this.breed + "\nIs Milking Breed: " + this.isMilkingBreed + "\nIs Horned: " + this.isHorned;
     }
+    @Override
+    public int hashCode(){
+        return -39;
+    }
 }

@@ -16,4 +16,7 @@ public class Shirt {
     public String toString() {
         return "Shirt Brand:" + this.shirtBrand + " \nShirt Price:" + this.shirtPrice + "\nShirt Size:" + this.shirtSize;
     }
-}
+    @Override
+    public int hashCode(){
+        return 2960;
+    }}

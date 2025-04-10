@@ -16,4 +16,7 @@ public class Snake {
     public String toString() {
         return "Species: " + this.species + "\nIs Venomous: " + this.isVenomous + "\nCan Climb: " + this.canClimb;
     }
-}
+    @Override
+    public int hashCode(){
+        return -4567;
+    }}

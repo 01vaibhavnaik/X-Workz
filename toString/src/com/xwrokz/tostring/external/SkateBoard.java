@@ -15,4 +15,8 @@ public class SkateBoard {
     public String toString() {
         return "Brand: " + this.brand + "\nMaterial: " + this.material + "\nSize: " + this.size;
     }
+    @Override
+    public int hashCode(){
+        return 2854660;
+    }
 }

@@ -16,4 +16,8 @@ public class Cloth {
     public String toString() {
         return "Material: " + this.material + "\nColor: " + this.color + "\nSize: " + this.size;
     }
+    @Override
+    public int hashCode(){
+        return 83;
+    }
 }

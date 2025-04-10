@@ -16,4 +16,8 @@ public class Panda {
     public String toString() {
         return "Habitat: " + this.habitat + "\nDiet: " + this.diet + "\nEndangered: " + this.isEndangered;
     }
+    @Override
+    public int hashCode(){
+        return 2686;
+    }
 }

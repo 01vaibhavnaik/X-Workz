@@ -16,4 +16,8 @@ public class Computer {
     public String toString() {
         return "Brand: " + this.brand + "\nRAM Size: " + this.ramSize + "\nProcessor Type: " + this.processorType;
     }
+    @Override
+    public int hashCode(){
+        return -7539;
+    }
 }

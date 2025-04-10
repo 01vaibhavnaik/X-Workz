@@ -16,4 +16,8 @@ public class Eagle {
     public String toString() {
         return "Habitat: " + this.habitat + "\nWingspan: " + this.wingspan + " m\nPrey: " + this.prey;
     }
+    @Override
+    public int hashCode(){
+        return 9287;
+    }
 }

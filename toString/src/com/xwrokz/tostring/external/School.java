@@ -16,6 +16,10 @@ public class School {
     public String toString(){
         return "Student Name:"+this.studentName+" \nSubject:"+this.subject+"\nStandard:"+this.standard;
     }
+    @Override
+    public int hashCode(){
+        return -7654569;
+    }
 
 
 }

@@ -15,4 +15,8 @@ public class Color {
     public String toString(){
         return "Color Brand:"+this.colorBrand+" \nColor Price:"+this.colorPrice+"Rs"+"\nColor MFD:"+this.colorMfd;
     }
+    @Override
+    public int hashCode(){
+        return 830;
+    }
 }

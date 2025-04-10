@@ -15,4 +15,8 @@ public class EarBuds {
     public String toString(){
         return "Ear Bud Brand:"+this.earBrand+" \nEar Bud Price:"+this.earPrice+"\nEar Bud Color:"+this.earColor;
     }
+    @Override
+    public int hashCode(){
+        return -8983;
+    }
 }

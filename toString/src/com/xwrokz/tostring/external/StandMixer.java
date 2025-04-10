@@ -16,4 +16,8 @@ public class StandMixer {
     public String toString() {
         return "Brand: " + this.brand + "\nSpeed Levels: " + this.speedLevels + "\nColor: " + this.color;
     }
+    @Override
+    public int hashCode(){
+        return -58;
+    }
 }

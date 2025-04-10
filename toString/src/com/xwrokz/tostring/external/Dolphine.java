@@ -16,4 +16,8 @@ public class Dolphine {
     public String toString() {
         return "Habitat: " + this.habitat + "\nWeight: " + this.weight + " kg\nEndangered: " + this.isEndangered;
     }
+    @Override
+    public int hashCode(){
+        return 863;
+    }
 }

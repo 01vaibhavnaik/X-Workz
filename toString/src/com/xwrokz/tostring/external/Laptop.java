@@ -15,4 +15,8 @@ public class Laptop {
     public String toString(){
         return "Laptop Company:"+this.laptopCompany+" \nLaptop Price:"+this.laptopPrice+"LKH"+"\nLaptop Color:"+this.laptopColor;
     }
+    @Override
+    public int hashCode(){
+        return -1245;
+    }
 }

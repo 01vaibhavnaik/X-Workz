@@ -16,4 +16,8 @@ public class Suitcase {
     public String toString() {
         return "Brand: " + this.brand + "\nSize: " + this.size + "\nColor: " + this.color;
     }
+    @Override
+    public int hashCode(){
+        return 78;
+    }
 }

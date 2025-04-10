@@ -15,4 +15,8 @@ public class SunGlass {
     public String toString(){
         return "Sun Glass Brand:"+this.sunGlassBrand+" \nSun Glass Price:"+this.sunGlassPrice+"\nSun Glass Color:"+this.sunGlassColor;
     }
+    @Override
+    public int hashCode(){
+        return 6678;
+    }
 }

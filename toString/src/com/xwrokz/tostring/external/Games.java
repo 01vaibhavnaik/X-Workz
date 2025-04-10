@@ -15,4 +15,8 @@ public class Games {
     public String toString(){
         return "Game Name:"+this.gameName+" \nLocation:"+this.location+"\nGame Time:"+this.gameTime;
     }
+    @Override
+    public int hashCode(){
+        return 987;
+    }
 }

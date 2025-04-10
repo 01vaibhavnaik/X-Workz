@@ -16,4 +16,8 @@ public class TeddyBear {
     public String toString() {
         return "Color: " + this.color + "\nHas Sound: " + this.hasSound + "\nIs Soft: " + this.isSoft;
     }
+    @Override
+    public int hashCode(){
+        return 574678;
+    }
 }

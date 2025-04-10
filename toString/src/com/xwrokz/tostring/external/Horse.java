@@ -16,4 +16,8 @@ public class Horse {
     public String toString() {
         return "Breed: " + this.breed + "\nColor: " + this.color + "\nHeight: " + this.height + " cm";
     }
+    @Override
+    public int hashCode(){
+        return 3689;
+    }
 }

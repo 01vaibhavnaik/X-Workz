@@ -16,4 +16,8 @@ public class Trolley {
     public String toString() {
         return "Brand: " + this.brand + "\nMaterial: " + this.material + "\nColor: " + this.color;
     }
+    @Override
+    public int hashCode(){
+        return -578;
+    }
 }

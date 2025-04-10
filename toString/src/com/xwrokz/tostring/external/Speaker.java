@@ -16,4 +16,8 @@ public class Speaker {
     public String toString() {
         return "Brand: " + this.brand + "\nWattage: " + this.wattage + "\nColor: " + this.color;
     }
+    @Override
+    public int hashCode(){
+        return -975678;
+    }
 }

@@ -16,4 +16,8 @@ public class EarRings {
     public String toString() {
         return "Type:" + this.type + " \nEarRingPrice:" + this.earRingPrice + "\nEarRingColor:" + this.earRingColor;
     }
+    @Override
+    public int hashCode(){
+        return 539;
+    }
 }

@@ -16,4 +16,8 @@ public class Mattress {
     public String toString() {
         return "Brand: " + this.brand + "\nSize: " + this.size + "\nMaterial: " + this.material;
     }
+    @Override
+    public int hashCode(){
+        return -2345678;
+    }
 }

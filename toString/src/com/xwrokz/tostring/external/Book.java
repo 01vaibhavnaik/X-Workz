@@ -16,4 +16,8 @@ public class Book {
     public String toString() {
         return "Title: " + this.title + "\nAuthor: " + this.author + "\nPages: " + this.pages;
     }
+    @Override
+    public int hashCode(){
+        return 432;
+    }
 }

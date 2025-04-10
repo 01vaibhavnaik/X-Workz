@@ -15,4 +15,8 @@ public class Chair {
     public String toString(){
         return "Chair Company:"+this.chairCompany+" \nChair Price:"+this.chairPrice+"\nChair Color:"+this.chairColor;
     }
+    @Override
+    public int hashCode(){
+        return 7893;
+    }
 }

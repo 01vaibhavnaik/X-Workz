@@ -16,4 +16,8 @@ public class Kangaroo {
     public String toString() {
         return "Habitat: " + this.habitat + "\nWeight: " + this.weight + " kg\nJump Height: " + this.jumpHeight + " m";
     }
+    @Override
+    public int hashCode(){
+        return 9211;
+    }
 }

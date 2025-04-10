@@ -16,4 +16,8 @@ public class Toaster {
     public String toString() {
         return "Brand: " + this.brand + "\nSlice Capacity: " + this.sliceCapacity + "\nColor: " + this.color;
     }
+    @Override
+    public int hashCode(){
+        return 987654;
+    }
 }

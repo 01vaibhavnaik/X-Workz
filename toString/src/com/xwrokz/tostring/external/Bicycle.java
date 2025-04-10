@@ -16,4 +16,8 @@ public class Bicycle {
     public String toString() {
         return "Brand: " + this.brand + "\nWheel Size: " + this.wheelSize + "\nType: " + this.type;
     }
+    @Override
+    public int hashCode(){
+        return 763;
+    }
 }

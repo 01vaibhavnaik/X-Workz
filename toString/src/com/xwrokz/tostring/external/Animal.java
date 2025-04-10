@@ -15,4 +15,8 @@ public class Animal {
     public String toString(){
         return "Animal Name:"+this.animalName+" \nAnimal Found:"+this.animalFound+"\nAnimal Color:"+this.animalColor;
     }
+    @Override
+    public int hashCode(){
+        return -89;
+    }
 }

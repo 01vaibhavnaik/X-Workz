@@ -16,4 +16,8 @@ public class Parrot {
     public String toString() {
         return "Color: " + this.color + "\nHabitat: " + this.habitat + "\nCan Talk: " + this.canTalk;
     }
+    @Override
+    public int hashCode(){
+        return -7642;
+    }
 }

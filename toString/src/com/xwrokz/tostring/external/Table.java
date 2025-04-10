@@ -15,4 +15,8 @@ public class Table {
     public String toString(){
         return "Table Company:"+this.tableType+" \nTable Price:"+this.tablePrice+"Rs"+"\nTable Color:"+this.tableColor;
     }
+    @Override
+    public int hashCode(){
+        return 23465;
+    }
 }

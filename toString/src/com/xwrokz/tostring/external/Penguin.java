@@ -16,4 +16,8 @@ public class Penguin {
     public String toString() {
         return "Habitat: " + this.habitat + "\nWeight: " + this.weight + " kg\nDiet: " + this.diet;
     }
+    @Override
+    public int hashCode(){
+        return -275;
+    }
 }

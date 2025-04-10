@@ -16,4 +16,8 @@ public class LaptopBag {
     public String toString() {
         return "Material: " + this.material + "\nSize: " + this.size + "\nColor: " + this.color;
     }
+    @Override
+    public int hashCode(){
+        return -79;
+    }
 }

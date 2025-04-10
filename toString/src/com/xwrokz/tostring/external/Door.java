@@ -16,6 +16,10 @@ public class Door {
     public String toString(){
         return "Brand:"+this.doorColor+" \nPrice:"+this.doorPrice+"\nSize:"+this.doorSize;
     }
+    @Override
+    public int hashCode(){
+        return 86783;
+    }
 
 
 }

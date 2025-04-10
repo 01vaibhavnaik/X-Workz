@@ -16,4 +16,8 @@ public class Tortoise {
     public String toString() {
         return "Habitat: " + this.habitat + "\nLifespan: " + this.lifespan + " years\nDiet: " + this.diet;
     }
+    @Override
+    public int hashCode(){
+        return -54;
+    }
 }

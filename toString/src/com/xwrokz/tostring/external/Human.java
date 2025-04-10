@@ -15,4 +15,8 @@ public class Human {
     public String toString(){
         return "Human Nane:"+this.humanName+" \nHuman Age:"+this.humanAge+"\nSex:"+this.humanSex;
     }
+    @Override
+    public int hashCode(){
+        return 9037;
+    }
 }

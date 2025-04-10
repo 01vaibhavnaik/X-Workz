@@ -16,4 +16,8 @@ public class Lion {
     public String toString() {
         return "Habitat: " + this.habitat + "\nMane Size: " + this.maneSize + " cm\nPride Size: " + this.prideSize;
     }
+    @Override
+    public int hashCode(){
+        return -8765;
+    }
 }

@@ -16,4 +16,8 @@ public class Dog {
     public String toString() {
         return "Breed: " + this.breed + "\nAge: " + this.age + "\nSize: " + this.size;
     }
+    @Override
+    public int hashCode(){
+        return 9879;
+    }
 }

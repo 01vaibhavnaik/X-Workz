@@ -15,4 +15,8 @@ public class Coffee {
     public String toString(){
         return "Coffee Type:"+this.coffeeType+" \nCoffee Price:"+this.coffeePrice+"\nLocation :"+this.coffeeLocation;
     }
+    @Override
+    public int hashCode(){
+        return 73;
+    }
 }

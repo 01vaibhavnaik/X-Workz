@@ -16,4 +16,8 @@ public class Seagull {
     public String toString() {
         return "Habitat: " + this.habitat + "\nWingspan: " + this.wingspan + " cm\nDiet: " + this.diet;
     }
+    @Override
+    public int hashCode(){
+        return -872658;
+    }
 }

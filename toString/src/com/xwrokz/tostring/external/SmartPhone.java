@@ -16,4 +16,8 @@ public class SmartPhone {
     public String toString() {
         return "Brand: " + this.brand + "\nStorage: " + this.storage + " GB\n5G: " + this.has5G;
     }
+    @Override
+    public int hashCode(){
+        return -8960;
+    }
 }

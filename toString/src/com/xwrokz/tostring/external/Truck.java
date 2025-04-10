@@ -16,4 +16,8 @@ public class Truck {
     public String toString() {
         return "Model: " + this.model + "\nCapacity: " + this.capacity + "\nEngine Type: " + this.engineType;
     }
+    @Override
+    public int hashCode(){
+        return 678;
+    }
 }

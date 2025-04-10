@@ -15,4 +15,8 @@ public class Food {
     public String toString(){
         return "Food Type:"+this.foodType+" \nFood Price:"+this.foodPrice+"Rs"+"\nFood Shop Location:"+this.foodLocation;
     }
+    @Override
+    public int hashCode(){
+        return -3922;
+    }
 }

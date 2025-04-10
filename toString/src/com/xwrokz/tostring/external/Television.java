@@ -16,5 +16,9 @@ public class Television {
     public String toString() {
         return "Brand: " + this.brand + "\nSize: " + this.size + "\nResolution: " + this.resolution;
     }
+    @Override
+    public int hashCode(){
+        return 36898;
+    }
 }
 

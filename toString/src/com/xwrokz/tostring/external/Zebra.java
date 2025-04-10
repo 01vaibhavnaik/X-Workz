@@ -16,4 +16,8 @@ public class Zebra {
     public String toString() {
         return "Habitat: " + this.habitat + "\nStripe Pattern: " + this.stripePattern + "\nDiet: " + this.diet;
     }
+    @Override
+    public int hashCode(){
+        return -877654;
+    }
 }

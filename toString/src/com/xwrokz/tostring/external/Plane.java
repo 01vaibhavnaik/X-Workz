@@ -16,4 +16,8 @@ public class Plane {
     public String toString() {
         return "Airline: " + this.airline + "\nSeating Capacity: " + this.seatingCapacity + "\nEngine Type: " + this.engineType;
     }
+    @Override
+    public int hashCode(){
+        return 2862;
+    }
 }

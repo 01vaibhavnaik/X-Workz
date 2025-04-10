@@ -16,4 +16,8 @@ public class Helmet {
     public String toString() {
         return "Brand: " + this.brand + "\nMaterial: " + this.material + "\nSize: " + this.size;
     }
+    @Override
+    public int hashCode(){
+        return 9927;
+    }
 }

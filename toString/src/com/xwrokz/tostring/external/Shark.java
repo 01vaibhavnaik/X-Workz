@@ -16,4 +16,8 @@ public class Shark {
     public String toString() {
         return "Species: " + this.species + "\nIs Dangerous: " + this.isDangerous + "\nCan Survive in Freshwater: " + this.canSurviveInFreshwater;
     }
+    @Override
+    public int hashCode(){
+        return 28960;
+    }
 }

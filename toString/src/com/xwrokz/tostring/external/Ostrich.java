@@ -16,4 +16,8 @@ public class Ostrich {
     public String toString() {
         return "Habitat: " + this.habitat + "\nSpeed: " + this.speed + " km/h\nCan Fly: " + this.canFly;
     }
+    @Override
+    public int hashCode(){
+        return -86952;
+    }
 }

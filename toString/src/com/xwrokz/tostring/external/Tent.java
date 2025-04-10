@@ -16,4 +16,8 @@ public class Tent {
     public String toString() {
         return "Brand: " + this.brand + "\nCapacity: " + this.capacity + "\nColor: " + this.color;
     }
+    @Override
+    public int hashCode(){
+        return 8765;
+    }
 }

@@ -16,5 +16,9 @@ public class Wolf {
     public String toString() {
         return "Habitat: " + this.habitat + "\nPack Size: " + this.packSize + "\nPrey: " + this.prey;
     }
+    @Override
+    public int hashCode(){
+        return 987654;
+    }
 }
 

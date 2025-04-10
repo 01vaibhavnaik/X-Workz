@@ -15,4 +15,8 @@ public class PowerBank {
     public String toString(){
         return "Power Bank Company:"+this.powerBankCompany+" \nPower Bank Price:"+this.powerBankPrice+"Rs"+"\nPower Bank Color:"+this.powerBankColor;
     }
+    @Override
+    public int hashCode(){
+        return -3882;
+    }
 }

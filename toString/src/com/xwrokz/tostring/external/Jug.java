@@ -16,5 +16,9 @@ public class Jug {
     public String toString(){
         return "Color:"+this.color+"\nCapacity:"+this.capacity+"\nMaterial:"+this.material;
     }
+    @Override
+    public int hashCode(){
+        return 5;
+    }
     
 }

@@ -15,4 +15,8 @@ public class Tree {
     public String toString(){
         return "Tree Name:"+this.treeName+" \nYear:"+this.treeLifeSpan+"\nFound In:"+this.treeLocated;
     }
+    @Override
+    public int hashCode(){
+        return -678;
+    }
 }

@@ -16,6 +16,10 @@ public class Camera {
     public String toString() {
         return "Brand: " + this.brand + "\nMegapixels: " + this.megapixels + "\nLens Type: " + this.lensType;
     }
+    @Override
+    public int hashCode(){
+        return -5678;
+    }
 }
 
 

@@ -15,4 +15,8 @@ public class Shoe {
     public String toString(){
         return "Shoe Brand:"+this.shoeBrand+" \nShoe Price:"+this.shoePrice+"\nShoe Color:"+this.shoeColor;
     }
+    @Override
+    public int hashCode(){
+        return -28960;
+    }
 }

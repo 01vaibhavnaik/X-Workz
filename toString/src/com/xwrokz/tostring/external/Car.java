@@ -16,4 +16,8 @@ public class Car {
     public String toString() {
         return "Model: " + this.model + "\nYear: " + this.year + "\nColor: " + this.color;
     }
+    @Override
+    public int hashCode(){
+        return -739;
+    }
 }

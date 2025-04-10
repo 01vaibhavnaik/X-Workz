@@ -16,4 +16,8 @@ public class Crocodile {
     public String toString() {
         return "Habitat: " + this.habitat + "\nLength: " + this.length + " meters\nDiet: " + this.diet;
     }
+    @Override
+    public int hashCode(){
+        return 39;
+    }
 }

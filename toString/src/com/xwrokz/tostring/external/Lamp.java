@@ -15,4 +15,8 @@ public class Lamp {
     public String toString() {
         return "Brand: " + this.brand + "\nColor: " + this.color + "\nBrightness: " + this.brightness;
     }
+    @Override
+    public int hashCode(){
+        return 28197;
+    }
 }

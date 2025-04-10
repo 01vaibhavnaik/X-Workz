@@ -15,4 +15,8 @@ public class Pant {
     public String toString(){
         return "Pant Type:"+this.pantType+" \nPant Price:"+this.pantPrice+"\nPant Color:"+this.pantColor;
     }
+    @Override
+    public int hashCode(){
+        return -62893;
+    }
 }

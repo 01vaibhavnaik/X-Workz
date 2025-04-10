@@ -16,4 +16,8 @@ public class Office {
     public String toString() {
         return "Company Name:" + this.companyName + " \nOpen Time:" + this.openTime +"AM"+"\nClose Time:"+this.closeTime+"PM";
     }
+    @Override
+    public int hashCode(){
+        return 2728;
+    }
 }

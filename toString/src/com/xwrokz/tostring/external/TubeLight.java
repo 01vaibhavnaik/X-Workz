@@ -15,4 +15,8 @@ public class TubeLight {
     public String toString(){
         return "TubeLight Brand:"+this.tubeLightBrand+" \nTubeLight Price:"+this.tubeLightPrice+"\nTubeLight Color:"+this.tubeLightColor;
     }
+    @Override
+    public int hashCode(){
+        return 34678;
+    }
 }

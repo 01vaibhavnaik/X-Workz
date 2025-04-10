@@ -15,4 +15,8 @@ public class Bag {
     public String toString(){
         return "Bag Brand:"+this.bagBrand+" \nBag Price:"+this.bagPrice+"\nBag Color:"+this.bagColor;
     }
+    @Override
+    public int hashCode(){
+        return 987;
+    }
 }
