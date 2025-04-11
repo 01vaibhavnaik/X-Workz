@@ -19,4 +19,18 @@ public class Chair {
     public int hashCode(){
         return 7893;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Chair){
+            Chair chair1=this;
+            Chair chair2=(Chair) obj;
+            if(chair1.chairPrice==chair2.chairPrice){
+                return true;
+            }
+        }
+        return false;
+    }
 }

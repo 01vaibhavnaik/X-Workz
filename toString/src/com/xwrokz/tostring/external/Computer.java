@@ -20,4 +20,18 @@ public class Computer {
     public int hashCode(){
         return -7539;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Computer){
+            Computer computer1=this;
+            Computer computer2=(Computer) obj;
+            if(computer1.ramSize==computer2.ramSize){
+                return true;
+            }
+        }
+        return false;
+    }
 }

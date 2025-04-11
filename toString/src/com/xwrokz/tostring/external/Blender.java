@@ -20,4 +20,18 @@ public class Blender {
     public int hashCode(){
         return 68;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Blender){
+            Blender blender1=this;
+            Blender blender2=(Blender) obj;
+            if(blender1.speedLevels==blender2.speedLevels ){
+                return true;
+            }
+        }
+        return false;
+    }
 }

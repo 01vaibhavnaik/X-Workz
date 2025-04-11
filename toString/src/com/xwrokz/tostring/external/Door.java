@@ -20,6 +20,20 @@ public class Door {
     public int hashCode(){
         return 86783;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Door){
+            Door door1=this;
+            Door door2=(Door) obj;
+            if(door1.doorColor==door2.doorColor){
+                return true;
+            }
+        }
+        return false;
+    }
 
 
 }

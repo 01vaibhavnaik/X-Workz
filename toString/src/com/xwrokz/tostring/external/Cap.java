@@ -19,4 +19,18 @@ public class Cap {
     public int hashCode(){
         return 8763;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Cap){
+            Cap cap1=this;
+            Cap cap2=(Cap) obj;
+            if(cap1.capBrand==cap2.capBrand){
+                return true;
+            }
+        }
+        return false;
+    }
 }

@@ -20,4 +20,18 @@ public class Bat {
     public int hashCode(){
         return -3768;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Bat){
+            Bat bat1=this;
+            Bat bat2=(Bat) obj;
+            if(bat1.habitat==bat2.habitat ){
+                return true;
+            }
+        }
+        return false;
+    }
 }

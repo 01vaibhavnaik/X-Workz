@@ -19,4 +19,18 @@ public class Color {
     public int hashCode(){
         return 830;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Color){
+            Color color1=this;
+            Color color2=(Color) obj;
+            if(color1.colorBrand==color2.colorBrand){
+                return true;
+            }
+        }
+        return false;
+    }
 }

@@ -19,4 +19,18 @@ public class Animal {
     public int hashCode(){
         return -89;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Animal){
+            Animal animal1=this;
+            Animal animal2=(Animal) obj;
+            if(animal1.animalName==animal2.animalName ){
+                return true;
+            }
+        }
+        return false;
+    }
 }

@@ -20,5 +20,19 @@ package com.xwrokz.tostring.external;
         public int hashCode(){
             return 652;
         }
+        @Override
+        public boolean equals(Object obj) {
+            if(obj!=null){
+                System.out.println("not null");
+            }
+            if(obj instanceof Bike){
+                Bike bike1=this;
+                Bike bike2=(Bike) obj;
+                if(bike1.gearCount==bike2.gearCount ){
+                    return true;
+                }
+            }
+            return false;
+        }
 
 }

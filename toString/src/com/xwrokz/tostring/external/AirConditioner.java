@@ -20,4 +20,19 @@ public class AirConditioner {
     public int hashCode(){
         return 9;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof AirConditioner){
+            AirConditioner airConditioner1=this;
+            AirConditioner airConditioner2=(AirConditioner) obj;
+            if(airConditioner1.brand==airConditioner2.brand ){
+                return true;
+        }
+        }
+        return false;
+    }
 }

@@ -20,4 +20,18 @@ public class Cow {
     public int hashCode(){
         return -39;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Cow){
+            Cow cow1=this;
+            Cow cow2=(Cow) obj;
+            if(cow1.breed==cow2.breed){
+                return true;
+            }
+        }
+        return false;
+    }
 }

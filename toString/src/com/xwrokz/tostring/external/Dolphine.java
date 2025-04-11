@@ -20,4 +20,18 @@ public class Dolphine {
     public int hashCode(){
         return 863;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Dolphine){
+            Dolphine dolphine1=this;
+            Dolphine dolphine2=(Dolphine) obj;
+            if(dolphine1.habitat==dolphine2.habitat){
+                return true;
+            }
+        }
+        return false;
+    }
 }

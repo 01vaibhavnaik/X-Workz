@@ -20,4 +20,18 @@ public class Cloth {
     public int hashCode(){
         return 83;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Cloth){
+            Cloth cloth1=this;
+            Cloth cloth2=(Cloth) obj;
+            if(cloth1.material==cloth2.material){
+                return true;
+            }
+        }
+        return false;
+    }
 }

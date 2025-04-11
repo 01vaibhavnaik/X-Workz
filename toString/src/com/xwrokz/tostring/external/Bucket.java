@@ -20,6 +20,20 @@ public class Bucket {
     public int hashCode(){
         return 6387;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Bucket){
+            Bucket bucket1=this;
+            Bucket bucket2=(Bucket) obj;
+            if(bucket1.price==bucket2.price ){
+                return true;
+            }
+        }
+        return false;
+    }
 
 
 }

@@ -20,4 +20,18 @@ public class Cat {
     public int hashCode(){
         return -35627;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("not null");
+        }
+        if(obj instanceof Cat){
+            Cat cat1=this;
+            Cat cat2=(Cat) obj;
+            if(cat1.breed==cat2.breed){
+                return true;
+            }
+        }
+        return false;
+    }
 }
